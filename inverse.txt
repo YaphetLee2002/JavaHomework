@@ -1,0 +1,38 @@
+
+
+
+    // Can't do this! Private constructor:
+    //! Soup priv1 = new Soup();
+    return new Soup();
+    return ps1;
+    Soup priv2 = Soup.makeSoup();
+    Sandwich f1 = new Sandwich();
+    Soup.access().f();
+  // (1) Allow creation via static method:
+  // (2) Create a static object and
+  // (The "Singleton" pattern):
+  // return a reference upon request.
+  private Soup() {}
+  public static Soup makeSoup() {
+  private static Soup ps1 = new Soup();
+  public static Soup access() {
+  public void f() {}
+  void f() { new Lunch(); }
+  void test() {
+  }
+  }
+  }
+// From 'Thinking in Java, 2nd ed.' by Bruce Eckel
+// www.BruceEckel.com. See copyright notice in CopyRight.txt.
+// Demonstrates class access specifiers.
+// Make a class effectively private
+// with private constructors:
+// Only one public class allowed per file:
+//: c05:Lunch.java
+package experiment;
+class Soup {
+class Sandwich { // Uses Lunch
+public class Lunch {
+}
+}
+} ///:~
